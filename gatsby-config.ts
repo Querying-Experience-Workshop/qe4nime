@@ -2,7 +2,10 @@ import type { GatsbyConfig } from "gatsby";
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `qe4nime`,
+    title: `Querying Experience for NIME`,
+	description: `A website for the workshop on querying experience at NIME 2023 `,
+	twitterUsername: `@zayaseevee`,
+	image: `./src/images/thinking-face.png`,
     siteUrl: `https://www.yourdomain.tld`
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.

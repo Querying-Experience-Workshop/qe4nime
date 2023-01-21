@@ -1,36 +1,51 @@
-import * as React from 'react'
-import { Link } from 'gatsby'
-import {
-  container,
-  heading,
-  navLinks,
-  navLinkItem,
-  navLinkText
-} from './layout.module.css'
+import React from "react"
+import PropTypes from "prop-types"
+import { useStaticQuery, graphql } from "gatsby"
 
-const Layout = ({ pageTitle, children }: any) => {
+import Header from "./header"
+import "./layout.css"
+import { Grommet, Anchor, Box, Footer, Text } from "grommet"
+import { grommet } from "grommet/themes"
+
+const Layout = ({ children } : any) => {
+  const data = useStaticQuery(graphql`
+    query SiteTitleQuery {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+    }
+  `)
+
   return (
-    <div className={container}>
-      <nav>
-        <ul className={navLinks}>
-          <li className={navLinkItem}>
-            <Link to="/" className={navLinkText}>
-              Home
-            </Link>
-          </li>
-          <li className={navLinkItem}>
-            <Link to="/about" className={navLinkText}>
-              About
-            </Link>
-          </li>
-        </ul>
-      </nav>
-      <main>
-        <h1 className={heading}>{pageTitle}</h1>
+    <Grommet
+      theme={grommet}
+      full
+      style={{
+        display: "flex",
+        flexDirection: "column",
+      }}
+    >
+      <Header siteTitle={data.site.siteMetadata.title} />
+      <Box as="main" pad="medium" flex overflow="auto">
         {children}
-      </main>
-    </div>
+      </Box>
+      <Footer background="light-4" justify="center" pad="small">
+        <Text textAlign="center" size="small">
+          © {new Date().getFullYear()}, Built with
+          {` `}
+          <Anchor href="https://www.gatsbyjs.org">Gatsby</Anchor>
+          {` and `}
+          <Anchor href="https://v2.grommet.io">Grommet</Anchor>
+        </Text>
+      </Footer>
+    </Grommet>
   )
+}
+
+Layout.propTypes = {
+  children: PropTypes.node.isRequired,
 }
 
 export default Layout
