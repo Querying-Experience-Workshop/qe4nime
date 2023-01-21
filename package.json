@@ -18,9 +18,11 @@
   },
   "dependencies": {
     "@mdx-js/react": "^2.2.1",
+    "bootstrap": "^5.2.3",
     "gatsby": "^5.4.2",
     "gatsby-plugin-image": "^3.4.0",
     "gatsby-plugin-mdx": "^5.4.0",
+    "gatsby-plugin-sass": "^6.4.0",
     "gatsby-plugin-sharp": "^5.4.0",
     "gatsby-source-filesystem": "^5.4.0",
     "gatsby-transformer-sharp": "^5.4.0",
@@ -28,7 +30,9 @@
     "grommet-icons": "^4.8.0",
     "hamburger-react": "^2.5.0",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.7.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.7.0",
     "styled-components": "^5.3.6"
   },
   "devDependencies": {

@@ -1,22 +1,22 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import { Header as GrommetHeader, Heading } from "grommet"
+
+import { Container, Nav, Navbar } from 'react-bootstrap';
 
 const Header = ({ siteTitle } : any) => (
-  <GrommetHeader background="brand" justify="center">
-    <Heading>
-      <Link
-        to="/"
-        style={{
-          color: `white`,
-          textDecoration: `none`,
-        }}
-      >
-        {siteTitle}
-      </Link>
-    </Heading>
-  </GrommetHeader>
+	<Navbar bg="primary" expand="lg" sticky="top" variant="dark">
+      <Container className="w-75">
+        <Navbar.Brand href="#home"><strong>{siteTitle}</strong></Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
+          <Nav>
+            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link href="#organisers">Organisers</Nav.Link>
+			<Nav.Link href="#submit">Submit</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
 )
 
 Header.propTypes = {

@@ -26,7 +26,12 @@ const config: GatsbyConfig = {
       "path": "./src/pages/"
     },
     __key: "pages"
-  }]
+  },{
+	resolve: `gatsby-plugin-sass`,
+	options: {
+		implementation: require("sass"),
+	},
+}]
 };
 
 export default config;
