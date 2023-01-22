@@ -5,6 +5,7 @@ import { Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from "./header"
 import "../styles.scss"
+import "../styles.css"
 
 const Layout = ({ children } : any) => {
 	const data = useStaticQuery(graphql`
@@ -20,11 +21,9 @@ const Layout = ({ children } : any) => {
 	return (
 		<Container fluid className="p-0">
 			<Header siteTitle={data.site.siteMetadata.title} />
-			<main>
-				<Container className="w-75 my-5 px-0">
+				<Container fluid className="p-0" as="main">
 					{children}
 				</Container>
-			</main>
 		</Container>		
 		)
 	}
