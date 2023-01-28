@@ -3,12 +3,14 @@ import Layout from "../components/layout"
 import { StaticImage } from 'gatsby-plugin-image'
 import { SEO } from "../components/seo"
 import { Col, Container, Row } from 'react-bootstrap';
-
+import About from "./about"
+import Schedule from "./schedule";
+import Organisers from "./organisers";
 
 const IndexPage = () => (
   <Layout>
     <SEO />
-	<Container fluid>
+	<Container fluid id="home">
 		<Container className="px-0">
 		<Row className="gx-5 py-5">
 			<Col lg={8}>
@@ -24,21 +26,9 @@ const IndexPage = () => (
 		</Row>
 		</Container>
 	</Container>
-	<Container fluid className="bg-light">
-		<Container className="px-0">
-		<Row className="gx-5 py-5">
-		<Col lg={8}>
-			<h2>About the Workshop</h2>
-			<p>First, let's unpack the title of the workshop:</p>
-			<h3>What do we mean by "experience"?</h3>
-			<p>Experience is a complex and multi-faceted concept. It is often used in HCI to refer to the subjective, personal, and emotional aspects of interaction with technology. However, it is also used in other disciplines, such as psychology, to refer to the process of learning and acquiring knowledge. In this workshop, we will explore the different meanings of experience and how they relate to the design of DMIs and HCI applied to musical performance.</p>
-			<h3>What do we mean by "querying"?</h3>
-			<p>Querying is a process of asking questions and seeking answers. In this workshop, we will explore different methods of enquiry as they have been used by the organisers</p>
-		</Col>
-		<Col></Col>
-	  </Row>
-		</Container>
-	</Container>
+	<About />
+	<Schedule />
+	<Organisers />
   </Layout>
 )
 
