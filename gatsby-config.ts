@@ -6,13 +6,13 @@ const config: GatsbyConfig = {
 	description: `A website for the workshop on querying experience at NIME 2023 `,
 	twitterUsername: `@zayaseevee`,
 	image: `./src/images/thinking-face.png`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://qe4nime.github.io/`
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin
   // Learn more at: https://gatsby.dev/graphql-typegen
   graphqlTypegen: true,
-  plugins: ["gatsby-plugin-image", "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-sharp", "gatsby-plugin-anchor-links", {
+  plugins: ["gatsby-plugin-image", "gatsby-plugin-mdx", "gatsby-plugin-sharp", "gatsby-transformer-remark", "gatsby-transformer-sharp", "gatsby-plugin-anchor-links", {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "images",
@@ -31,7 +31,7 @@ const config: GatsbyConfig = {
 	options: {
 		implementation: require("sass"),
 	},
-}]
+}, "gatsby-transformer-bibtex",]
 };
 
 export default config;
