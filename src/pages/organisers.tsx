@@ -20,6 +20,7 @@ const Organisers = () => (
                         <a
                             className="link-primary"
                             href="https://courtneynreed.wordpress.com/"
+                            target="_blank"
                         >
                             Courtney Nicole Reed
                         </a>{" "}
@@ -41,6 +42,7 @@ const Organisers = () => (
                         <a
                             className="link-primary"
                             href="https://eeveezayas.com/"
+                            target="_blank"
                         >
                             Eevee Zayas-Garin
                         </a>{" "}
@@ -70,6 +72,7 @@ const Organisers = () => (
                         <a
                             className="link-primary"
                             href="https://andrewmcpherson.org/"
+                            target="_blank"
                         >
                             Andrew McPherson
                         </a>{" "}
