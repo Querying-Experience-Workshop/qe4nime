@@ -52,7 +52,7 @@ const About = () => {
         <Container fluid as="section" className="bg-light" id="about">
             <Container className="px-0">
                 <Row className="gx-5 py-5">
-                    <h2>About the Workshop</h2>
+                    <h2>About the workshop</h2>
                     <p>First, let's unpack the title of the workshop:</p>
                     <h4>What do we mean by "experience"?</h4>
                     <p>
@@ -106,7 +106,7 @@ const About = () => {
                         surface descriptions. In NIME, it has been used to
                         research perception, and to understand interaction and
                         performance with digital musical instruments{" "}
-                        {cite("nordmoen2022")}.
+                        {cite("reed2022")}.
                     </p>
                     <h4>Dialogic design</h4>
                     <p>
@@ -121,8 +121,8 @@ const About = () => {
                     </p>
                     <h4>Retrospective trioethnography</h4>
                     <p>
-                        Rooted in autoethnography {cite("ellis2011")},
-                        retrospective trioethnography {cite("howell2021")} is a
+                        Retrospective trioethnography {cite("howell2021")},
+                        rooted in autoethnography {cite("ellis2011")}, is a
                         method in which design researchers turn the lens on
                         themselves and their design process, allowing first-hand
                         experience to spark new insights, treating subjectivity

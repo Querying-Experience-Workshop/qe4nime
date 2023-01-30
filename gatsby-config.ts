@@ -3,7 +3,7 @@ import type { GatsbyConfig } from "gatsby";
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `Querying Experience for NIME`,
-	description: `A website for the workshop on querying experience at NIME 2023 `,
+	description: `A website for the workshop on querying experience at NIME 2023`,
 	twitterUsername: `@zayaseevee`,
 	image: `./src/images/thinking-face.png`,
     siteUrl: `https://qe4nime.github.io/`
@@ -40,7 +40,7 @@ const config: GatsbyConfig = {
 	  background_color: `#7D0B20`,
 	  theme_color: `#7D0B20`,
 	  display: `standalone`,
-	  icon: `src/images/thinking-face-large.png`,
+	  icon: `src/images/thinking-face.png`,
 	},
   }, "gatsby-transformer-bibtex",]
 };

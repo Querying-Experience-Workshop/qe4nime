@@ -5,7 +5,7 @@ import { SEO } from "../components/seo";
 import { Col, Container, Row } from "react-bootstrap";
 import About from "./about";
 import Schedule from "./schedule";
-import Organisers from "./organisers";
+import People from "./people";
 import Submission from "./submission";
 
 const IndexPage = () => (
@@ -20,14 +20,13 @@ const IndexPage = () => (
                             With this workshop, we aim to bring together
                             researchers with the common interest of querying,
                             articulating and understanding experience in the
-                            context of New Interfaces for Musical Expression
-                            (NIME), and to jointly identify challenges,
-                            methodologies and opportunities in this space.
-                            Furthermore, we expect it to serve as a platform for
-                            strengthening the community of researchers working
-                            with qualitative and phenomenological methods around
-                            the design of DMIs and HCI applied to musical
-                            performance.
+                            context of New Interfaces for Musical Expression,
+                            and to jointly identify challenges, methodologies
+                            and opportunities in this space. Furthermore, we
+                            hope it serves as a platform for strengthening the
+                            community of researchers working with qualitative
+                            and phenomenological methods around the design of
+                            DMIs and HCI applied to musical interaction.
                         </p>
                     </Col>
                     <Col>
@@ -41,7 +40,7 @@ const IndexPage = () => (
         </Container>
         <About />
         <Schedule />
-        <Organisers />
+        <People />
         <Submission />
     </Layout>
 );

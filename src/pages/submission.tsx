@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Col, Container, Row } from "react-bootstrap";
+import { Button, Container } from "react-bootstrap";
 
 const Submission = () => {
     return (
@@ -22,6 +22,12 @@ const Submission = () => {
                 <p>
                     Accepted submissions will be featured on the workshop’s
                     website.
+                </p>
+                <h4>Accessibility</h4>
+                <p>
+                    We are committed to making this workshop accessible to all.
+                    If you have any accessibility requirements, please let us
+                    know in your submission email.
                 </p>
                 <Button
                     href="mailto:courtney.reed@kcl.ac.uk,e.zayasgarin@qmul.ac.uk?subject=QE4NIME Submission"

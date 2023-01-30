@@ -2,10 +2,10 @@
   "name": "qe4nime",
   "version": "1.0.0",
   "private": true,
-  "description": "qe4nime",
+  "description": "A website for the workshop on querying experience at NIME 2023",
   "author": "Eevee Zayas-Garín",
   "keywords": [
-    "gatsby"
+    "querying", "experience", "nime", "methodologies"
   ],
   "scripts": {
     "deploy": "gatsby build && gh-pages -d public -b main",
