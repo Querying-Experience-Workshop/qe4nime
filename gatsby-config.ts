@@ -31,7 +31,18 @@ const config: GatsbyConfig = {
 	options: {
 		implementation: require("sass"),
 	},
-}, "gatsby-transformer-bibtex",]
+}, {
+	resolve: `gatsby-plugin-manifest`,
+	options: {
+	  name: `Querying Experience for NIME`,
+	  short_name: `QE4NIME`,
+	  start_url: `/`,
+	  background_color: `#7D0B20`,
+	  theme_color: `#7D0B20`,
+	  display: `standalone`,
+	  icon: `src/images/thinking-face-large.png`,
+	},
+  }, "gatsby-transformer-bibtex",]
 };
 
 export default config;

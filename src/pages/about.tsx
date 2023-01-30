@@ -64,7 +64,7 @@ const About = () => {
                         acquiring knowledge. In this workshop, we will explore
                         the different meanings of experience and how they relate
                         to the design of DMIs and HCI applied to musical
-                        performance.
+                        interaction.
                     </p>
                     <h4>What do we mean by "querying"?</h4>
                     <p>
