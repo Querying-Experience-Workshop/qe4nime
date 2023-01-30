@@ -121,12 +121,12 @@ const People = () => (
             </Row>
             <Row className="gx-5 py-3">
                 <Col className="d-flex justify-content-center mb-4" lg={3}>
-                    <StaticImage
+                    {/* <StaticImage
                         alt="Portrait photo of Noura Howell"
                         className="rounded-circle"
                         src=""
                         width={189}
-                    />
+                    /> */}
                 </Col>
                 <Col>
                     <p>
@@ -142,12 +142,12 @@ const People = () => (
             </Row>
             <Row className="gx-5 py-3">
                 <Col className="d-flex justify-content-center mb-4" lg={3}>
-                    <StaticImage
+                    {/* <StaticImage
                         alt="Portrait photo of Juan Pablo Martinez Avila"
                         className="rounded-circle"
                         src=""
                         width={189}
-                    />
+                    /> */}
                 </Col>
                 <Col>
                     <p>
