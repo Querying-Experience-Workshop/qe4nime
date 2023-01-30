@@ -13,7 +13,6 @@ const Submission = () => {
                     be one of the following:
                 </p>
                 <ul>
-                    <li>300-word abstract</li>
                     <li>1-2 page statement of interest or position paper</li>
                     <li>Short video (45 seconds to 3 minutes)</li>
                     <li>Blog post</li>

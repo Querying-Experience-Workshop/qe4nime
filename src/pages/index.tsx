@@ -12,10 +12,15 @@ const IndexPage = () => (
     <Layout>
         <SEO />
         <Container fluid id="home">
-            <Container className="px-0">
-                <Row className="gx-5 py-5">
-                    <Col lg={8}>
-                        <h1>Welcome</h1>
+            <Container className="px-0 py-5">
+                <h1>Welcome</h1>
+                <Row className="gx-5">
+                    <Col lg={7}>
+                        <p className="lead">
+                            This half-day workshop will take place in hybrid
+                            format on May 29th, 2023, at the NIME conference in
+                            Mexico City and online.
+                        </p>
                         <p>
                             With this workshop, we aim to bring together
                             researchers with the common interest of querying,

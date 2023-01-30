@@ -7,12 +7,12 @@ const People = () => (
         <Container className="px-0 py-5">
             <h2>Organisers</h2>
             <Row className="gx-5 py-3">
-                <Col className="mb-4" lg={3}>
+                <Col className="mb-4" lg={4}>
                     <StaticImage
                         alt="Portrait photo of Courtney Nicole Reed"
                         className="rounded-circle"
                         src="../images/courtney.jpg"
-                        width={189}
+                        width={220}
                     />
                 </Col>
                 <Col>
@@ -29,12 +29,12 @@ const People = () => (
                 </Col>
             </Row>
             <Row className="gx-5 py-3">
-                <Col className="mb-4" lg={3}>
+                <Col className="mb-4" lg={4}>
                     <StaticImage
                         alt="Portrait photo of Eevee Zayas-Garin"
                         className="rounded-circle"
                         src="../images/eevee.jpeg"
-                        width={189}
+                        width={220}
                     />
                 </Col>
                 <Col>
@@ -59,12 +59,12 @@ const People = () => (
                 </Col>
             </Row>
             <Row className="gx-5 py-3">
-                <Col className="mb-4" lg={3}>
+                <Col className="mb-4" lg={4}>
                     <StaticImage
                         alt="Portrait photo of Andrew McPherson"
                         className="rounded-circle"
                         src="../images/andrew.jpg"
-                        width={189}
+                        width={220}
                     />
                 </Col>
                 <Col>
@@ -84,14 +84,14 @@ const People = () => (
                     </p>
                 </Col>
             </Row>
-            <h2>Additional speakers</h2>
+            <h2>Featured speakers</h2>
             <Row className="gx-5 py-3">
-                <Col className="mb-4" lg={3}>
+                <Col className="mb-4" lg={4}>
                     <StaticImage
                         alt="Portrait photo of Kelsey Cotton"
                         className="rounded-circle"
                         src="../images/kelsey.jpg"
-                        width={189}
+                        width={220}
                     />
                 </Col>
                 <Col>
@@ -120,7 +120,7 @@ const People = () => (
                 </Col>
             </Row>
             <Row className="gx-5 py-3">
-                <Col className="d-flex justify-content-center mb-4" lg={3}>
+                <Col className="mb-4" lg={4}>
                     {/* <StaticImage
                         alt="Portrait photo of Noura Howell"
                         className="rounded-circle"
@@ -141,7 +141,7 @@ const People = () => (
                 </Col>
             </Row>
             <Row className="gx-5 py-3">
-                <Col className="d-flex justify-content-center mb-4" lg={3}>
+                <Col className="mb-4" lg={4}>
                     {/* <StaticImage
                         alt="Portrait photo of Juan Pablo Martinez Avila"
                         className="rounded-circle"

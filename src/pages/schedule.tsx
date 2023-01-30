@@ -6,7 +6,7 @@ const Schedule = () => (
         <Container className="px-0 py-5">
             <h2>Schedule</h2>
             <Row className="gx-5">
-                <Col lg={8}>
+                <Col lg={7}>
                     <p>
                         The half-day workshop will be hybrid on May 29, 2023 at
                         a time TBC. It will take place as follows:
@@ -54,7 +54,7 @@ const Schedule = () => (
                     <p>
                         At the end of the workshop, we will reflect on the day's
                         activities and learnings, and discuss how the workshop
-                        can be improved for future editions. we will close by
+                        can be improved for future editions. We will close by
                         identifying opportunities for collaboration and
                         discussion beyond the workshop.
                     </p>
