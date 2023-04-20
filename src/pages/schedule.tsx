@@ -8,9 +8,13 @@ const Schedule = () => (
             <Row className="gx-5">
                 <Col lg={7}>
                     <p>
-                        The half-day workshop will be hybrid on May 29, 2023 at
-                        a time TBC. It will take place as follows:
+                        The half-day workshop will be hybrid on May 29, 2023.
+                        The workshop will take place in the second half of the
+                        day, from 13:00 - 17:00 local time in Mexico City
+                        (GMT-6). The time is TBC and may be slightly amended
+                        leading up to the conference.
                     </p>
+                    <p>The workshop will take place as follows:</p>
                     <h6>Opening (20 minutes)</h6>
                     <p>
                         We will open with the workshop's motivation, agenda, and

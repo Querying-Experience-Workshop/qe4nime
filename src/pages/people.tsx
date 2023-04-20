@@ -9,7 +9,7 @@ const People = () => (
             <Row className="gx-5 py-3">
                 <Col className="mb-4" lg={4}>
                     <StaticImage
-                        alt="Portrait photo of Courtney Nicole Reed"
+                        alt="Portrait photo of Courtney N. Reed"
                         className="rounded-circle"
                         src="../images/courtney.jpg"
                         width={220}
@@ -19,7 +19,7 @@ const People = () => (
                     <p>
                         <a
                             className="link-primary"
-                            href="https://courtneynreed.wordpress.com/"
+                            href="https://courtneynreed.com/"
                             target="_blank"
                         >
                             Courtney N. Reed
@@ -28,9 +28,11 @@ const People = () => (
                         Design Analytics and Music Physiology in the School of
                         Biomedical Engineering & Imaging Sciences at King's
                         College London. Her research focuses on externalising
-                        internal sensory feedback, control dynamics between the
-                        musician and their musical body, and how music and
-                        physiology shape each other.
+                        internal sensory feedback, control dynamics between
+                        musicians and their musical bodies, and how music and
+                        physiology shape each other. She in most interested in
+                        first-person research methods and co-explorations of
+                        musical experiences through micro-phenomenology.
                     </p>
                 </Col>
             </Row>
@@ -58,8 +60,8 @@ const People = () => (
                         research focuses on accessibility, lived experience and
                         replicability in digital musical instrument design.
                         Drawing from disability justice perspectives, they work
-                        towards developing NIME practice-based research methods
-                        that engage with matters of access, dialogic design and
+                        towards developing NIME research methods that engage
+                        with matters of access, articulating experience and
                         instrument longevity.
                     </p>
                 </Col>
@@ -156,12 +158,12 @@ const People = () => (
             </Row>
             <Row className="gx-5 py-3">
                 <Col className="mb-4" lg={4}>
-                    {/* <StaticImage
+                    <StaticImage
                         alt="Portrait photo of Juan Pablo Martinez Avila"
                         className="rounded-circle"
-                        src=""
+                        src="../images/juan.jpeg"
                         width={220}
-                    /> */}
+                    />
                 </Col>
                 <Col>
                     <p>
@@ -172,38 +174,51 @@ const People = () => (
                         >
                             Juan Pablo Martinez Avila
                         </a>{" "}
-                        is a Computer Science PhD student at the Mixed Reality
-                        Laboratory at the University of Nottingham, UK. His
-                        research is focused on HCI, ethnography, and multimodal
-                        interaction, specifically oriented in somaesthetic
-                        design and augmenting guitars for performance
-                        preparation.
+                        is a Research Fellow at the Mixed Reality Laboratory
+                        (University of Nottingham, UK). His research work
+                        addressing the embodied practices of musicians through
+                        ethnographic studies, participatory design and embodied
+                        ideation methods—such as Soma design—has been published
+                        at TOCHI, JNMR, CHI, CSCW and NIME receiving honourable
+                        mentions in 2019, 2021 and 2022. He has also been a
+                        diversity officer for NIME since 2020. His current
+                        research interests involve the use of creative AI in
+                        musicking and digital musical instrument design and
+                        understanding how these can be analysed and informed by
+                        first and second-person perspective design
+                        methodologies.
                     </p>
                 </Col>
             </Row>
             <Row className="gx-5 py-3">
                 <Col className="mb-4" lg={4}>
-                    {/* <StaticImage
+                    <StaticImage
                         alt="Portrait photo of Cally Gatehouse"
                         className="rounded-circle"
-                        src=""
+                        src="../images/cally.JPG"
                         width={220}
-                    /> */}
+                    />
                 </Col>
                 <Col>
                     <p>
-                        Cally Gatehouse is a Lecturer, HEA Fellow, designer, and
-                        researcher at the School of Design, Northumbria
-                        University. Cally’s interest is in the distinctive kinds
-                        of knowledge that design can produce and how that can
-                        help designers, researchers and citizens to navigate and
-                        understand a world shaped by network technology. Cally’s
-                        work incorporates a background in graphic and
-                        communication design, drawing on a range of
-                        post-solutionist design practices and feminist STS to
-                        consider how design research practices can find ways to
-                        forging commitments to complex problems which resist
-                        easy resolution.
+                        <a
+                            className="link-primary"
+                            href="https://www.northumbria.ac.uk/about-us/our-staff/g/cally-gatehouse/"
+                            target="_blank"
+                        >
+                            Cally Gatehouse
+                        </a>{" "}
+                        is a Lecturer, HEA Fellow, designer, and researcher at
+                        the School of Design, Northumbria University. Cally’s
+                        interest is in the distinctive kinds of knowledge that
+                        design can produce and how that can help designers,
+                        researchers and citizens to navigate and understand a
+                        world shaped by network technology. Cally’s work
+                        incorporates a background in graphic and communication
+                        design, drawing on a range of post-solutionist design
+                        practices and feminist STS to consider how design
+                        research practices can find ways to forging commitments
+                        to complex problems which resist easy resolution.
                     </p>
                 </Col>
             </Row>
