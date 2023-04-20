@@ -56,15 +56,21 @@ const About = () => {
                     <p>First, let's unpack the title of the workshop:</p>
                     <h4>What do we mean by "experience"?</h4>
                     <p>
-                        Experience is a complex and multi-faceted concept. It is
-                        often used in HCI to refer to the subjective, personal,
-                        and emotional aspects of interaction with technology.
-                        However, it is also used in other disciplines, such as
-                        psychology, to refer to the process of learning and
-                        acquiring knowledge. In this workshop, we will explore
-                        the different meanings of experience and how they relate
-                        to the design of DMIs and HCI applied to musical
-                        interaction.
+                        <em>Experience</em> itself is a multi-faceted concept;
+                        HCI views experience as the subjective aspects of
+                        interaction with technology, while psychology associates
+                        experience with learning and acquiring knowledge from
+                        the world. DMI research has involved a little of both:
+                        musical interaction is inherently subjective and
+                        dependent on the background and previous interactions of
+                        all involved——musicians, DMI designers, listeners. As
+                        well, this existing knowledge shapes how we approach our
+                        musical craft, how we learn new musical interactions
+                        based on ones we know already, and how our role in the
+                        world influences our music. Experience in this
+                        subjective and context-dependent definition is therefore
+                        critical to the study of DMIs, their design, use, and
+                        role in music performance.
                     </p>
                     <h4>What do we mean by "querying"?</h4>
                     <p>
@@ -77,7 +83,8 @@ const About = () => {
                     <h3>Methodologies</h3>
                     <p>
                         Our workshop will be based on a series of short
-                        presentations and a general discussion. We will explore
+                        presentations, followed by hands-on experience observing
+                        and participating in their processes. We will explore
                         the following methodologies:
                     </p>
                     <h4>Somaesthetics</h4>

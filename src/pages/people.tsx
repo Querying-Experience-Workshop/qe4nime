@@ -22,9 +22,15 @@ const People = () => (
                             href="https://courtneynreed.wordpress.com/"
                             target="_blank"
                         >
-                            Courtney Nicole Reed
+                            Courtney N. Reed
                         </a>{" "}
-                        is a postdoctoral researcher at King's College London.
+                        is a vocalist and Postdoctoral Research Assistant in
+                        Design Analytics and Music Physiology in the School of
+                        Biomedical Engineering & Imaging Sciences at King's
+                        College London. Her research focuses on externalising
+                        internal sensory feedback, control dynamics between the
+                        musician and their musical body, and how music and
+                        physiology shape each other.
                     </p>
                 </Col>
             </Row>
@@ -52,8 +58,8 @@ const People = () => (
                         research focuses on accessibility, lived experience and
                         replicability in digital musical instrument design.
                         Drawing from disability justice perspectives, they work
-                        towards developing NIME research methods that engage
-                        with matters of access, articulating experience and
+                        towards developing NIME practice-based research methods
+                        that engage with matters of access, dialogic design and
                         instrument longevity.
                     </p>
                 </Col>
@@ -121,12 +127,12 @@ const People = () => (
             </Row>
             <Row className="gx-5 py-3">
                 <Col className="mb-4" lg={4}>
-                    {/* <StaticImage
+                    <StaticImage
                         alt="Portrait photo of Noura Howell"
                         className="rounded-circle"
-                        src=""
-                        width={189}
-                    /> */}
+                        src="../images/noura.jpg"
+                        width={220}
+                    />
                 </Col>
                 <Col>
                     <p>
@@ -137,6 +143,14 @@ const People = () => (
                         >
                             Noura Howell
                         </a>{" "}
+                        is an Assistant Professor in Digital Media at Georgia
+                        Tech. Her design research explores embodied, emotional,
+                        sonic interactions with biodata——data about people’s
+                        bodies and behaviors. Working with heat, sound, and
+                        vibration, her work investigates ways of knowing, ways
+                        of feeling, and ways of listening with biodata. What can
+                        (and can’t) biodata infer about how we feel, and how
+                        might engagements with biodata influence how we feel?
                     </p>
                 </Col>
             </Row>
@@ -146,7 +160,7 @@ const People = () => (
                         alt="Portrait photo of Juan Pablo Martinez Avila"
                         className="rounded-circle"
                         src=""
-                        width={189}
+                        width={220}
                     /> */}
                 </Col>
                 <Col>
@@ -158,6 +172,38 @@ const People = () => (
                         >
                             Juan Pablo Martinez Avila
                         </a>{" "}
+                        is a Computer Science PhD student at the Mixed Reality
+                        Laboratory at the University of Nottingham, UK. His
+                        research is focused on HCI, ethnography, and multimodal
+                        interaction, specifically oriented in somaesthetic
+                        design and augmenting guitars for performance
+                        preparation.
+                    </p>
+                </Col>
+            </Row>
+            <Row className="gx-5 py-3">
+                <Col className="mb-4" lg={4}>
+                    {/* <StaticImage
+                        alt="Portrait photo of Cally Gatehouse"
+                        className="rounded-circle"
+                        src=""
+                        width={220}
+                    /> */}
+                </Col>
+                <Col>
+                    <p>
+                        Cally Gatehouse is a Lecturer, HEA Fellow, designer, and
+                        researcher at the School of Design, Northumbria
+                        University. Cally’s interest is in the distinctive kinds
+                        of knowledge that design can produce and how that can
+                        help designers, researchers and citizens to navigate and
+                        understand a world shaped by network technology. Cally’s
+                        work incorporates a background in graphic and
+                        communication design, drawing on a range of
+                        post-solutionist design practices and feminist STS to
+                        consider how design research practices can find ways to
+                        forging commitments to complex problems which resist
+                        easy resolution.
                     </p>
                 </Col>
             </Row>
